@@ -37,17 +37,17 @@ The USNMS dataset is stored in the **h5py** format, which is a versatile and eff
   - **Edge Features:** Represents spatial relationships between street blocks.
   - **Adjacency Information (edge_index):** Defines the structure of the graph, representing the connection between street blocks.
 
-- **dual_graph_nx_list (Dual Graph):** Contains the dual graph, representing street intersections and their relationships with the street-block graph.
+- **dual_graph_nx_list (Dual Graph):** Contains the dual graph, representing streets and their relationships.
 
-- **primal_graph_nx_list (Primal Graph):** Contains the primal graph used for calculating vertex-level attributes, distinct from the street-block (dual) graph.
+- **primal_graph_nx_list (Primal Graph):** Contains the primal graph, representing intersections and streets used for calculating node-level attributes, distinct from the dual graph.
 
 - **global_handcrafted_features:** Stores global descriptors that represent overarching characteristics of the street network. These descriptors capture network-wide features, such as node count, edge count, total edge length, and other high-level network properties.
 
 - **label0:** Represents the label for each sample, indicating the type of street network morphology (e.g., "Regular Grid", "Irregular Grid").
 
-- **edges_precise_matches:** Contains precise matching information for street edges, stored as objects.
-
-- **nodes_precise_matches:** Stores precise matching information for nodes, also stored as objects.
+- **edges_precise_matches:** Contains precise matching information for street edges correponding to 1km*1km grid. This data is stored in GeoDataFrame format and provides spatial attributes for street network analysis.
+.
+- **nodes_precise_matches:** Contains precise matching information for nodes correponding to 1km*1km grid. This data is stored in GeoDataFrame format and provides spatial attributes for street network analysis.
 
 - **polygons_df:** Contains polygonal data corresponding to 1 km × 1 km grid sections. This data is stored in GeoDataFrame format and provides spatial attributes for street network analysis.
 
