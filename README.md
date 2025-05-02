@@ -1,3 +1,7 @@
+# Data Hosting Update
+Due to significant dataset expansion to enhance experimental reproducibility and accessibility, the full data resources have been migrated to Zenodo for stable long-term archival. The dataset remains permanently available at:
+Liu, Y. (2025). Urban street network morphology classification through street-block based graph neural networks and multi-model fusion (Version 1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.15315222
+
 # 1.1 Dataset Overview
 
 The **Urban Street Network Morphology Subtypes (USNMS)** dataset is designed for the analysis of urban street network structures, focusing on major U.S. cities. The dataset contains over 6,700 samples, each representing a 1 km × 1 km grid patch. The data was constructed using OpenStreetMap (OSM) data extracted from 12 major U.S. cities using the OSMnx tool.
