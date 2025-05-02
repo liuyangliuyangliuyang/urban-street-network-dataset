@@ -1,4 +1,4 @@
-# Data Hosting Update
+# Dataset Update Notice
 Due to significant dataset expansion to enhance experimental reproducibility and accessibility, the full data resources have been migrated to Zenodo for stable long-term archival. The dataset remains permanently available at:
 Liu, Y. (2025). Urban street network morphology classification through street-block based graph neural networks and multi-model fusion (Version 1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.15315222
 
